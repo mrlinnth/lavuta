@@ -1,5 +1,5 @@
 {
-    "name": "lavuta/example",
+    "name": "lavuta/ui",
     "description": "",
     "authors": [
         {
@@ -10,7 +10,7 @@
     "extra": {
         "laravel": {
             "providers": [
-              "UiServiceProvider"
+                "Modules\\Ui\\Providers\\UiServiceProvider"
             ],
             "aliases": {
 
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Modules\\Example\\": ""
+            "Modules\\Ui\\": ""
         }
     }
 }
