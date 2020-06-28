@@ -1,0 +1,25 @@
+{
+    "name": "lavuta/ui",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mrlinnth",
+            "email": "linnth@outlook.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Ui\\Providers\\UiServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Ui\\": ""
+        }
+    }
+}

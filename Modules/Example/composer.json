@@ -1,0 +1,25 @@
+{
+    "name": "lavuta/example",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mrlinnth",
+            "email": "linnth@outlook.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+              "UiServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Example\\": ""
+        }
+    }
+}
