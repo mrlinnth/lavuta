@@ -1,4 +1,4 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+<p align="center"><img src="https://hiyanxyz.github.io/media/posts/9/responsive/logo-xs.png" width="100"></p>
 
 ## About lavuta
 
@@ -45,12 +45,14 @@ Following Laravel packages are installed and configured by default
 
 ## Installation instruction
 
-- run `$ git clone`
+- run `$ git clone https://github.com/mrlinnth/lavuta`
 - create new database
 - create .env file with correct database info
 - run `$ composer install`
 - run `$ php artisan migrate`
 - run `$ php artisan passport:install`
+- run `$ php artisan key:generate`
+- run `$ php artisan passport:install --force`
 - enter UI module directory `$ cd Modules/Ui`
 - run `$ npm install`
 - run `$ npm run dev`
